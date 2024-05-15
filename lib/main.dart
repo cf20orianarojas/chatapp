@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:mongo_dart/mongo_dart.dart';
 
-// final Db db = Db('mongodb+srv://orojTK42kQBy2024@chat.5umpru0.mongodb.net/?retryWrites=true&w=majority&appName=Chat');
+final Db db = Db(
+    'mongodb+srv://orojas:TK42kQBy2024@chat.5umpru0.mongodb.net/?retryWrites=true&w=majority&appName=Chat');
 
 void main() {
   runApp(const MyApp());
